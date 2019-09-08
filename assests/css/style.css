@@ -1,0 +1,84 @@
+body {
+    background-image: url(../images/vaio_hard_edge.png)
+}
+
+.headerbox {
+    font-size: 28px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: azure;
+    background-color: darkred;
+    padding: 10px;
+    margin: 10px 20px;
+    width: 250px;
+    text-align: center;
+}
+
+.instructions {
+    font-size: 16px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: black;
+    background-color: bisque;
+    padding: 10px;
+    margin-left: 20px;
+    width: 500px;
+    line-height: 20px;
+}
+
+/* p {
+    padding: 10px;
+} */
+
+.randomnumbox {
+    background-color: darkred;
+    font-size: 32px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: azure;
+    padding: 10px;
+    margin-left: 20px;
+    margin-top: 15px;
+    width: 150px;
+    height: 75px;
+    /* text-align: center; */
+    float: left;
+}
+
+.winslosses {
+    background-color: darkred;
+    font-size: 16px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: azure;
+    padding: 10px;
+    margin-left: 10px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    width: 100px;
+    height: 75px;
+    float: left;
+}
+
+.scoretext {
+    clear: both;
+    overflow: auto;
+    background-color: bisque;
+    font-size: 16px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: black;
+    padding-top: 7px;
+    padding-left: 10px;
+    margin-left: 20px;
+    margin-bottom: 15px;
+    width: 260px;
+    height: 25px;
+}
+
+.scoretotal {
+    background-color: bisque;
+    font-size: 32px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: black;
+    padding: 10px;
+    margin-left: 20px;
+    width: 260px;
+    height: 100px;
+    margin-bottom: 100px;
+}
