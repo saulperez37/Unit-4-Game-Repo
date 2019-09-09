@@ -10,12 +10,16 @@
     <link rel="stylesheet" href="./assests/css/reset.css">
     <link rel="stylesheet" href="./assests/css/style.css">
 
+    <script src="https://code.jquery.com/jquery-3.4.1.js"
+        integrity="sha256-WpOohJOqMqqyKL9FccASB9O0KwACQJpFTUBLTYOVvVU=" crossorigin="anonymous"></script>
+    <script src="./assests/javascript/game.js"></script>
+
 </head>
 
 <body>
 
     <header>
-        <h1 class="headerbox">Crystals Collector!</h1>
+        <h1 class="header-box">Crystals Collector!</h1>
     </header>
 
     <br>
@@ -36,23 +40,27 @@
         <p>Each time when the games starts, the game will change the values of each crystal.</p>
     </div>
 
-    <div class="randomnumbox">
-        <p id="randomnum">39</p>
+    <div class="random-num-box">
+        <p id="number-to-guess"></p>
     </div>
 
-    <div class="winslosses">
+    <div class="wins-losses">
         <p id="wins">Wins: 0</p>
         <br>
         <p id="loses">Losses: 0</p>
     </div>
 
-    <div class="scoretext">
+    <div id="crystals">
+    </div>
+
+    <div class="score-text">
         <p>Your total score is:</p>
     </div>
 
-    <div class="scoretotal">
+    <div class="score-total">
         <p id="score">0</p>
     </div>
+
 
 
 </body>

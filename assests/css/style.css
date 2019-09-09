@@ -2,7 +2,7 @@ body {
     background-image: url(../images/vaio_hard_edge.png)
 }
 
-.headerbox {
+.header-box {
     font-size: 28px;
     font-family: Georgia, 'Times New Roman', Times, serif;
     color: azure;
@@ -28,7 +28,7 @@ body {
     padding: 10px;
 } */
 
-.randomnumbox {
+.random-num-box {
     background-color: darkred;
     font-size: 32px;
     font-family: Georgia, 'Times New Roman', Times, serif;
@@ -42,7 +42,7 @@ body {
     float: left;
 }
 
-.winslosses {
+.wins-losses {
     background-color: darkred;
     font-size: 16px;
     font-family: Georgia, 'Times New Roman', Times, serif;
@@ -56,7 +56,12 @@ body {
     float: left;
 }
 
-.scoretext {
+.crystal-images {
+    width: 100px;
+    height: 100px;
+}
+
+.score-text {
     clear: both;
     overflow: auto;
     background-color: bisque;
@@ -71,7 +76,7 @@ body {
     height: 25px;
 }
 
-.scoretotal {
+.score-total {
     background-color: bisque;
     font-size: 32px;
     font-family: Georgia, 'Times New Roman', Times, serif;
