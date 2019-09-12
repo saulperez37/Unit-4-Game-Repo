@@ -1,59 +1,78 @@
 body {
-    background-image: url(../images/vaio_hard_edge.png)
+    background-image: url(../images/vaio_hard_edge.png);
+}
+
+.wrapper {
+    margin: 0 240px;
 }
 
 .header-box {
-    font-size: 28px;
-    font-family: Georgia, 'Times New Roman', Times, serif;
+    padding-top: 7px;
+}
+
+.crystalcollector {
+    font-size: 36px;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: bolder;
     color: azure;
     background-color: darkred;
+    opacity: .75;
     padding: 10px;
-    margin: 10px 20px;
-    width: 250px;
+    margin: 10px 0;
+    width: 780px;
+    height: 50px;
     text-align: center;
 }
 
 .instructions {
     font-size: 16px;
-    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-align: center;
     color: black;
     background-color: bisque;
+    opacity: .75;
     padding: 10px;
-    margin-left: 20px;
-    width: 500px;
-    line-height: 20px;
+    width: 780px;
+    line-height: 18px;
 }
-
-/* p {
-    padding: 10px;
-} */
 
 .random-num-box {
     background-color: darkred;
-    font-size: 32px;
-    font-family: Georgia, 'Times New Roman', Times, serif;
+    opacity: .75;
+    font-size: 48px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-align: center;
     color: azure;
     padding: 10px;
-    margin-left: 20px;
+    margin-left: 125px;
     margin-top: 15px;
-    width: 150px;
+    width: 300px;
     height: 75px;
-    /* text-align: center; */
     float: left;
+}
+
+#number-to-guess {
+    padding-top: 15px;
 }
 
 .wins-losses {
     background-color: darkred;
-    font-size: 16px;
-    font-family: Georgia, 'Times New Roman', Times, serif;
+    opacity: .75;
+    font-size: 18px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     color: azure;
     padding: 10px;
     margin-left: 10px;
+    margin-right: 125px;
     margin-top: 15px;
     margin-bottom: 15px;
-    width: 100px;
+    width: 200px;
     height: 75px;
     float: left;
+}
+
+#wins {
+    padding-top: 13px;
 }
 
 .crystal-images {
@@ -65,25 +84,42 @@ body {
     clear: both;
     overflow: auto;
     background-color: bisque;
-    font-size: 16px;
-    font-family: Georgia, 'Times New Roman', Times, serif;
+    opacity: .75;
+    font-size: 20px;
+    text-align: center;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     color: black;
     padding-top: 7px;
     padding-left: 10px;
-    margin-left: 20px;
+    margin-left: 125px;
     margin-bottom: 15px;
-    width: 260px;
-    height: 25px;
+    width: 540px;
+    height: 50px;
+}
+
+.yourscore {
+    padding-top: 13px;
 }
 
 .score-total {
     background-color: bisque;
-    font-size: 32px;
-    font-family: Georgia, 'Times New Roman', Times, serif;
+    opacity: .75;
+    font-size: 60px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-align: center;
     color: black;
     padding: 10px;
-    margin-left: 20px;
-    width: 260px;
+    margin-left: 125px;
+    width: 540px;
     height: 100px;
     margin-bottom: 100px;
+}
+
+#crystals {
+    padding-left: 100px;
+    padding-bottom: 10px;
+}
+
+#score {
+    padding: 25px;
 }

@@ -14,53 +14,55 @@
         integrity="sha256-WpOohJOqMqqyKL9FccASB9O0KwACQJpFTUBLTYOVvVU=" crossorigin="anonymous"></script>
     <script src="./assests/javascript/game.js"></script>
 
+
 </head>
 
 <body>
 
-    <header>
-        <h1 class="header-box">Crystals Collector!</h1>
-    </header>
+    <div class="wrapper">
 
-    <br>
+        <header class="crystalcollector">
+            <h1 class="header-box">Crystals Collector!</h1>
+        </header>
 
-    <div class="instructions">
-        <p>You will be given a random number at the start of the game.</p>
         <br>
-        <p>There are four cyrstals below. By clicking on a crystal you will add a specific amount of points to your
-            total
-            score</p>
-        <br>
-        <p>You win the game by matching your total score to the random number, you lose the game if your total score
-            goes
-            above the random number.</p>
-        <br>
-        <p>The value of each crystal is hidden from you until you click on it</p>
-        <br>
-        <p>Each time when the games starts, the game will change the values of each crystal.</p>
-    </div>
 
-    <div class="random-num-box">
-        <p id="number-to-guess"></p>
-    </div>
+        <div class="instructions">
+            <p>You will be given a random number at the start of the game.</p>
+            <br>
+            <p>There are four cyrstals below. By clicking on a crystal you will add a specific amount of points to your
+                total score.</p>
+            <br>
+            <p>You win the game by matching your total score to the random number, you lose the game if your total score
+                goes above the random number.</p>
+            <br>
+            <p>The value of each crystal is hidden from you until you click on it</p>
+            <br>
+            <p>Each time when the games starts, the game will change the values of each crystal.</p>
+        </div>
 
-    <div class="wins-losses">
-        <p id="wins">Wins: 0</p>
-        <br>
-        <p id="loses">Losses: 0</p>
-    </div>
+        <div class="random-num-box">
+            <p id="number-to-guess"></p>
+        </div>
 
-    <div id="crystals">
-    </div>
+        <div class="wins-losses">
+            <p id="wins">Wins: 0</p>
+            <br>
+            <p id="losses">Losses: 0</p>
+        </div>
 
-    <div class="score-text">
-        <p>Your total score is:</p>
-    </div>
+        <div id="crystals">
+        </div>
 
-    <div class="score-total">
-        <p id="score">0</p>
-    </div>
+        <div class="score-text">
+            <p class="yourscore">Your total score is:</p>
+        </div>
 
+        <div class="score-total">
+            <p id="score">0</p>
+        </div>
+
+    </div>
 
 
 </body>
