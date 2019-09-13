@@ -25,21 +25,36 @@ $(document).ready(function () {
     let images = ["./assests/images/crystal-01.png", "./assests/images/crystal-02.png",
         "./assests/images/crystal-03.png", "./assests/images/crystal-04.png"]
 
-    for (let i = 0; i < images.length; i++) {
+    function getCrystalInt() {
+        // return Math.floor(Math.random() * 12) + 1;
 
-        var randomCrystalNum = Math.floor(Math.random() * 12) + 1;
 
-        var imageCrystal = $("<img width=150px>");
+        //    $(".crystal-image").remove();
 
-        imageCrystal.addClass("crystal-image");
+        for (let i = 0; i < images.length; i++) {
+            // console.log(images.length);
 
-        imageCrystal.attr("src", images[i]);
 
-        imageCrystal.attr("data-crystalvalue", randomCrystalNum);
+            // var randomCrystalNum = getCrystalInt();
+            // var randomCrystalNum = Math.floor(Math.random() * 12) + 1;
+            // console.log(randomCrystalNum);
 
-        $("#crystals").append(imageCrystal);
 
+            var imageCrystal = $("<img width=150px>");
+
+            imageCrystal.addClass("crystal-image");
+
+            imageCrystal.attr("src", images[i]);
+
+            imageCrystal.attr("data-crystalvalue", Math.floor(Math.random() * 12) + 1);
+
+            $("#crystals").append(imageCrystal);
+
+
+        }
     }
+
+    getCrystalInt();
 
     //Click function for crystal images
     //If else statement that determines whether players wins or loses & updates players score counter
@@ -59,12 +74,14 @@ $(document).ready(function () {
             wins++;
             $("#wins").text("Wins: " + wins);
             resetGame();
-        } 
-        else if (score >= targetNumber){
+
+        }
+        else if (score >= targetNumber) {
             alert("Sorry you lose!");
             losses++;
             $("#losses").text("Losses: " + losses);
             resetGame();
+
         }
 
     });
@@ -78,13 +95,8 @@ $(document).ready(function () {
         targetNumber = getRndInteger(9, 120);
         $("#number-to-guess").text(targetNumber);
 
-        randomCrystalNum = Math.floor(Math.random() * 12) + 1;
-        imageCrystal.attr("data-crystalvalue", randomCrystalNum);
-        crystalValue = $(".crystal-image").attr("data-crystalvalue", randomCrystalNum);
-        
-
-        
-        
+        $(".crystal-image").remove();
+        getCrystalInt();
 
     }
 
